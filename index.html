@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Julian Spravil">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes slide {
+      0% { object-position: 0% 50%; }
+      50% { object-position: 100% 50%; }
+      100% { object-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body class="bg-white min-h-screen flex flex-col font-sans">
+  <main class="container mx-auto px-4 pt-8 max-w-5xl">
+    <!-- INTRO SECTION -->
+    <div class="flex flex-row items-center mb-8">
+      <div class="flex-1 order-1 pr-8">
+        <h1 class="text-3xl font-semibold mb-3">Julian Spravil</h1>
+        <p class="mb-4">
+          I’m a PhD student in the <a href="https://www.ais.uni-bonn.de/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Autonomous Intelligent Systems Group</a> at the University of Bonn and a research engineer at <a href="https://www.iais.fraunhofer.de/en.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Fraunhofer Institute for Intelligent Analysis and Information Systems</a>. 
+		  My research interests include multimodal learning, multilingual learning, and human-centered applications.
+        </p>
+        <div class="md:flex md:space-x-4 text-blue-600">
+          <a href="https://linkedin.com/in/spravil" target="_blank" rel="noopener" class="block text-blue-600 hover:underline">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=MCblr1EAAAAJ" target="_blank" rel="noopener" class="block text-blue-600 hover:underline">Google Scholar</a>
+          <a href="https://github.com/spravil" target="_blank" rel="noopener" class="block text-blue-600 hover:underline">GitHub</a>
+          <a href="https://huggingface.co/Spravil" target="_blank" rel="noopener" class="block text-blue-600 hover:underline">Hugging Face</a>
+        </div>
+      </div>
+      <div class="w-20 sm:w-48 order-2 mb-0 block">
+        <img src="images/avatar.jpg" alt="Julian Spravil" class="rounded-full w-full h-auto object-cover">
+      </div>
+    </div>
+
+    <!-- RESEARCH SECTION -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-2">Research</h2>
+      <p class="mb-4">
+        My research focuses on multimodal machine learning to create systems that combine vision, language, and audio — enabling real-time assistance for people with impairments and supporting robust multilingual interaction. Representative papers are <span class="bg-orange-100 py-0 px-1 rounded-2xl" >highlighted</span>.
+      </p>
+    </section>
+
+    <!-- PUBLICATIONS SECTION -->
+    <section class="mb-12">
+      <ul class="space-y-6">
+	  
+<li class="group flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 bg-orange-100 rounded-2xl">
+  <div class="relative w-48 h-48 flex-shrink-0 overflow-hidden rounded-xl bg-white">
+    <img src="images/florenz.png" alt="Florenz static" class="absolute inset-0 w-full h-full object-contain group-hover:object-cover transition-transform duration-300 group-hover:scale-105 group-hover:[animation:slide_4s_linear_infinite]">
+  </div>
+  <div class="flex-1">
+    <a href="https://arxiv.org/abs/2503.09443" target="_blank" class="block text-blue-600 hover:underline mb-1 font-bold">Florenz: Scaling Laws for Systematic Generalization in Vision-Language Models</a>
+    <div class="mb-1"><b>Julian Spravil</b>, Sebastian Houben, Sven Behnke</div>
+    <div class="mb-2">arXiv preprint, March 2025</div>
+    
+    <div class="mb-4">Florenz demonstrates that scaling vision-language models enables systematic generalization to unseen task-language pairs, allowing multilingual performance without direct supervision.</div>
+    
+    <div class="flex flex-wrap gap-2">
+      <a href="https://arxiv.org/abs/2503.09443" target="_blank" class="inline-block border border-blue-600 text-blue-600 text-xs px-3 py-1 rounded hover:bg-blue-600 hover:text-white transition bg-white">arXiv</a>
+      <a href="https://arxiv.org/pdf/2503.09443" target="_blank" class="inline-block border border-blue-600 text-blue-600 text-xs px-3 py-1 rounded hover:bg-blue-600 hover:text-white transition bg-white">PDF</a>
+    </div>
+  </div>
+</li>
+
+        <li class="group flex flex-col sm:flex-row items-start sm:items-center gap-4 p-4 bg-white rounded-2xl">
+          <div class="relative w-48 h-48 flex-shrink-0 overflow-hidden rounded-lg">
+            <img src="images/hyenapixel.png" alt="Florenz static" class="absolute inset-0 w-full h-full object-contain group-hover:object-cover transition-transform duration-300 group-hover:scale-105 group-hover:[animation:slide_4s_linear_infinite]">
+          </div>
+          <div class="flex-1">
+            <a href="https://arxiv.org/abs/2402.19305" target="_blank" class="block text-blue-600 hover:underline mb-1 font-bold">HyenaPixel: Global Image Context with Convolutions</a>
+            <div class="mb-1"><b>Julian Spravil</b>, Sebastian Houben, Sven Behnke</div>
+            <div class="mb-2">European Conference on Artificial Intelligence (ECAI) 2024</div>
+			
+			<div class="mb-4">HyenaPixel builds on the Hyena operator, extending it to bidirectional and 2D processing to capture global image context with large convolutions, enabling transformer-level accuracy without attention.</div>
+			
+            <div class="flex flex-wrap gap-2">
+              <a href="https://arxiv.org/abs/2402.19305" target="_blank" class="inline-block border border-blue-600 text-blue-600 text-xs px-3 py-1 rounded hover:bg-blue-600 hover:text-white transition bg-white">arXiv</a>
+			   <a href="https://ebooks.iospress.nl/doi/10.3233/FAIA240529" target="_blank" class="inline-block border border-blue-600 text-blue-600 text-xs px-3 py-1 rounded hover:bg-blue-600 hover:text-white transition bg-white">IOS Press</a>
+              <a href="https://arxiv.org/pdf/2402.19305" target="_blank" class="inline-block border border-blue-600 text-blue-600 text-xs px-3 py-1 rounded hover:bg-blue-600 hover:text-white transition bg-white">PDF</a>
+              <a href="https://huggingface.co/collections/Spravil/hyenapixel-665ddb5b46c75554754f56eb" target="_blank" class="inline-block border border-blue-600 text-blue-600 text-xs px-3 py-1 rounded hover:bg-blue-600 hover:text-white transition bg-white">Hugging Face</a>
+			  <a href="https://github.com/spravil/HyenaPixel" target="_blank" class="inline-block border border-blue-600 text-blue-600 text-xs px-3 py-1 rounded hover:bg-blue-600 hover:text-white transition bg-white">GitHub</a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+  
+    <footer class="mt-auto w-full text-center text-sm text-gray-500 py-6">
+    Inspired by <a href="https://jonbarron.info/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Jon Barron's website</a>. Find the source code of this website <a href="https://github.com/spravil/spravil.github.io" target="_blank" rel="noopener" class="text-blue-600 hover:underline">here</a>.
+  </footer>
+</body>
+</html>
