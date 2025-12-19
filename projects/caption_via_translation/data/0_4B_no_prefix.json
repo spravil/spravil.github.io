@@ -1,0 +1,258 @@
+{
+    "images/pexels-addie-1650035-3152126.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "The iconic gardens by the bay in singapore, bathed in a vibrant display of pink and purple lights. The sky above is a deep blue, dotted with stars, creating a stunning backdrop for the towering structures. The foreground is dominated by the towering palm trees, their trunks adorned with a multitude of pink lights that twinkle like stars against the dark backdrop. The perspective of the image is from a low angle, looking up at the towering trees, emphasizing their grandeur and the beauty of the night sky."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Der ikonische Supertree Grove in Singapur, badet in einem lebendigen rosa und lila Licht, das einen auffallenden Kontrast zum dunkelblauen Himmel schafft. Die Perspektive ist von einem hohen Aussichtspunkt aus, der einen Panoramablick auf die hoch aufragenden B\u00e4ume bietet. Die B\u00e4ume, eine Mischung aus gr\u00fcnen und braunen Farbt\u00f6nen, sind mit funkelnden Lichtern geschm\u00fcckt, die einen magischen Glanz auf die Szene werfen. Die Gesamtkomposition des Bildes deutet auf einen Moment der Ruhe und der Sch\u00f6nheit der Natur hin."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "The iconic gardens by the bay at night, a renowned landmark in singapore. The foreground is dominated by a cluster of tall, slender trees, their trunks adorned with a vibrant display of pink and purple lights. The trees are densely packed, creating a canopy that filters the dark sky above. The background is a deep blue, providing a stark contrast to the illuminated trees and lights. Taken from a low angle, looking up at the towering trees, emphasizing their grandeur and the beauty of the night sky."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "The iconic gardens by the bay at night, a renowned landmark in singapore. The foreground is dominated by a series of tall, slender trees, their trunks adorned with a vibrant display of pink and purple lights. The trees are densely packed, creating a striking contrast against the dark sky. The background is a deep blue, suggesting the photo was taken during the evening or night. The overall scene is a testament to the beauty of nature and the allure of the city."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "The iconic gardens by the bay in singapore at night. The foreground is dominated by the towering trees, their trunks adorned with a vibrant display of pink and purple lights. The trees are densely packed, creating a striking contrast against the dark sky. The background is a deep blue, providing a stark contrast to the bright lights and the intricate details of the trees. The overall scene is a testament to the beauty and grandeur of this renowned landmark."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "The iconic gardens by the bay at night, a renowned botanical garden in singapore. The garden is illuminated by a vibrant display of pink and purple lights, creating a striking contrast against the dark blue sky. The trees, tall and slender, stand majestically against the backdrop of the night sky, their branches reaching out like skeletal fingers. The perspective of the image is from a low angle, looking up at the towering trees, emphasizing their grandeur and the intricate details of their structure."
+        }
+    ],
+    "images/pexels-nextvoyage-3520548.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "The iconic gardens by the bay in singapore, a renowned landmark known for its unique architectural design. The building's facade is a striking combination of white and gray, with a curved roof that adds a sense of grandeur to the structure. The sky above is a clear blue, dotted with fluffy white clouds, suggesting a bright and sunny day. The perspective of the image is from a low angle, looking up at the building, emphasizing its height and the grandeur of its design."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Der ikonische Marina Bay Sands Hotel in Singapur, ein bekanntes Wahrzeichen, das f\u00fcr seine unverwechselbare gekr\u00fcmmte Fassade bekannt ist. Das Hotel liegt inmitten eines klaren blauen Himmels, \u00fcbers\u00e4t mit flauschigen wei\u00dfen Wolken. Die Fassade des Hotels ist eine Mischung aus wei\u00dfen und grauen T\u00f6nen, mit einer Reihe von Balkonen und Gr\u00fcn, die die architektonischen Wunder des Hotels widerspiegeln. Die Perspektive des Bildes ist aus einem niedrigen Winkel, der auf das Hotel schaut und seine Gr\u00f6\u00dfe betont."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "The iconic gardens by the bay, a renowned landmark in singapore. The building, a marvel of modern architecture, stands tall against a backdrop of a clear blue sky dotted with fluffy white clouds. The facade of the building is a striking combination of white and gray, punctuated by a series of balconies that add a touch of elegance. The perspective of the image is from a low angle, looking up at the building, emphasizing its grandeur and height. The foreground is adorned with lush greenery, providing a stark contrast to the building's architectural details. The image encapsulates the essence of singapore's unique blend of nature and architecture."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "The iconic gardens by the bay, a renowned landmark in singapore. The building, a marvel of modern architecture, stands tall against a backdrop of a clear blue sky dotted with fluffy white clouds. The facade of the building is a striking contrast of white and gray, punctuated by a series of balconies that add a touch of whimsy to the structure. The perspective of the image is from a low angle, looking up at the building, emphasizing its height and the grandeur of its design."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "The iconic marina bay sands hotel in singapore, a modern architectural marvel. The hotel's distinctive white facade stands out against the backdrop of a clear blue sky dotted with fluffy white clouds. The perspective of the image is from a low angle, looking up at the hotel, emphasizing its grandeur and height. The foreground is adorned with lush greenery, adding a touch of nature to the urban landscape. A testament to the city's rich history and architectural prowess."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "The iconic marina bay sands hotel in singapore, a modern architectural marvel. The hotel's distinctive white facade stands out against the backdrop of a clear blue sky dotted with fluffy white clouds. The perspective of the photo is from a low angle, looking up at the hotel, emphasizing its grandeur and height. The foreground is adorned with lush greenery, adding a touch of nature to the urban landscape. The overall composition of the image suggests a harmonious blend of architecture and natural beauty."
+        }
+    ],
+    "images/pexels-phyo-hein-kyaw-305378-2523644.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A modern architectural structure with a unique design, featuring a large, transparent glass dome that allows natural light to flood the space. The dome is supported by a series of vertical lines that create a geometric pattern. Below the dome, there is a tall, slender fountain with water cascading down, creating a dynamic and inviting atmosphere. The fountain is surrounded by lush greenery, suggesting a well-maintained garden or park setting. The architecture of the building in the background is contemporary, with clean lines and a minimalist aesthetic. The overall impression is one of a luxurious and stylish outdoor space designed for relaxation and enjoyment of nature."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Eine moderne architektonische Struktur mit einem gro\u00dfen, gekr\u00fcmmten Dach, das aus zahlreichen wei\u00dfen, kugelf\u00f6rmigen Lichtern besteht. Das Dach ist mit einer Reihe von vertikalen Linien geschm\u00fcckt, die ein geometrisches Muster erzeugen. Unter dem Dach befindet sich ein Wasserfall, der nach unten kaskadiert und einen dynamischen Effekt erzeugt. Der Wasserfall ist von \u00fcppigem Gr\u00fcn umgeben, mit B\u00e4umen und Str\u00e4uchern im Hintergrund, was auf eine st\u00e4dtische Umgebung hindeutet. Der Himmel ist bew\u00f6lkt, und die Beleuchtung deutet darauf hin, dass es ein bew\u00f6lkter Tag sein k\u00f6nnte."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "A modern architectural structure with a unique design, featuring a large, transparent dome with a grid-like pattern. The dome is supported by a black base and is adorned with numerous small, round, white lights that create a sparkling effect. Below the dome, there is a tall, slender water feature that cascades down, creating a cascading effect. The water appears to be a light source, possibly a fountain or a water feature, and is surrounded by lush greenery, suggesting a garden or park setting. The architecture is contemporary, with clean lines and a minimalist aesthetic."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "A modern architectural structure with a unique design, featuring a large, transparent dome with a grid-like pattern. The dome is supported by a series of vertical lines that create a tunnel-like effect. Below the dome, there is a tall, slender water feature that cascades down, creating a cascading effect. The water appears to be a light source, possibly a fountain, and is surrounded by lush greenery, suggesting a garden or park setting. The architecture is contemporary, with clean lines and a minimalist aesthetic. The overall style of the image is a photograph with a focus on the architectural design and the water feature."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "A modern architectural structure with a unique design, featuring a large, transparent dome with a grid-like pattern. The dome is supported by a series of vertical lines that create a sense of depth and dimension. Below the dome, there is a tall, slender water feature that cascades down, creating a dynamic and flowing effect. The water appears to be a light source, possibly a fountain or a water feature, and is surrounded by lush greenery, suggesting a well-maintained garden or park. The background is softly blurred, drawing focus to the central structure. The overall aesthetic is contemporary and sophisticated, with a focus on the interplay of light and shadow."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "A modern architectural structure with a large, transparent glass dome that allows natural light to flood the space. The dome is supported by a series of vertical lines that create a geometric pattern. Below the dome, there is a tall, slender water feature that cascades down, creating a cascading effect. The water appears to be a light source, possibly a fountain or a water feature, and is surrounded by lush greenery, suggesting a well-maintained garden or park. The architecture of the building in the background is contemporary, with clean lines and a minimalist design. The overall atmosphere is serene and inviting, with a focus on the interplay of light and shadow."
+        }
+    ],
+    "images/pexels-reinaldo-30774192.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "An interior space with a modern design. In the foreground, there is a row of metal chairs arranged in a line, facing towards the right side of the frame. The chairs are empty and appear to be made of metal. Above the chairs, a large, rectangular sign with a blue background and white text is mounted on the wall. The text on the sign reads \"us bundestag\" in large, bold letters. Below the sign, there are smaller text that is not fully legible. The ceiling is dark with recessed lighting, and the walls are painted in a light color. The floor is tiled, and there are no visible texts or distinctive brands in the image. The style of the image is a straightforward, unembellished photograph with no filters or artistic effects applied."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Ein Moment in einem Bahnhof, in dem eine einsame Figur in der N\u00e4he eines Bahnhofs steht. Der Bahnhof ist mit einem Schild geschm\u00fcckt, auf dem \"us bundestag\" steht, was darauf hindeutet, dass es sich um ein \u00f6ffentliches Ereignis handelt. Der Boden ist dunkel, kontrastierend mit den helleren T\u00f6nen der W\u00e4nde und der Decke, die mit eingeschlossener Beleuchtung beleuchtet ist. Im Vordergrund befinden sich mehrere Metallb\u00e4nke, die in einem Halbkreis angeordnet sind, bereit f\u00fcr die Passagiere. Die allgemeine Atmosph\u00e4re ist ruhig und einladend, typisch f\u00fcr einen typischen Bahnhof."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "An interior space with a modern design. In the foreground, there is a row of six metal chairs arranged in a line, facing towards the right side of the frame. The chairs are empty and appear to be made of metal. Behind the chairs, a large, rectangular sign with a yellow background and black text is mounted on the wall. The text on the sign reads \"us bundestag\" in large, bold letters. Above the sign, there are several lights hanging from the ceiling, providing illumination. The ceiling has a textured appearance, and the walls are painted in a light color. The floor is dark, contrasting with the lighter tones of the ceiling and walls. The style of the image is a straightforward, unembellished photograph with no filters or artistic effects."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "An interior space with a modern design. In the foreground, there is a row of metal chairs arranged in a straight line, facing towards the right side of the frame. The chairs are empty and appear to be made of metal. Behind the chairs, a large, rectangular sign with a yellow background and black text is mounted on the wall. The text on the sign reads \"us bundestag\" in bold, capital letters. Above the sign, there are two lights hanging from the ceiling, casting a warm glow on the scene. The ceiling has a textured appearance, and the walls are painted in a light color. The floor is a dark color, providing a contrast to the lighter tones of the ceiling and walls. The overall atmosphere of the space is quiet and minimalistic."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "An indoor setting with a modern design. In the foreground, there is a row of metal chairs arranged in a straight line, facing towards the right side of the frame. The chairs are empty and appear to be made of metal. Behind the chairs, a large, rectangular sign with a yellow background and black text is mounted on the wall. The text on the sign reads \"us bundestag\" in bold, capital letters. Above the sign, there are two ceiling lights. The ceiling has a textured appearance, and the walls are painted in a light color. The floor is dark, providing a contrast to the lighter elements in the foreground. The overall atmosphere of the image is clean and minimalistic."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "An indoor setting with a modern design. In the foreground, there is a row of empty chairs arranged in a line, facing towards the right side of the frame. The chairs are empty and appear to be made of a light-colored material, possibly metal or plastic. The background features a large, open space with a high ceiling and recessed lighting. There is a sign on the wall with the text \"us bundestag\" in bold, capitalized letters, indicating the name of the establishment. The wall is painted in a bright yellow color, and there are several windows with white frames, allowing natural light to enter the space. The overall atmosphere is clean and minimalistic."
+        }
+    ],
+    "images/pexels-f4bi-130350.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "The majestic cologne cathedral, a renowned landmark in germany. The cathedral's gothic architecture is characterized by its tall, pointed spires reaching towards the clear blue sky. The facade is adorned with intricate carvings and statues, showcasing the craftsmanship of the era. The perspective of the image is from a low angle, emphasizing the grandeur of the cathedral and its imposing presence."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Die majest\u00e4tische Kathedrale Notre-Dame, ein ber\u00fchmtes Wahrzeichen in Paris, Frankreich. Die Fassade des Geb\u00e4udes ist mit komplizierten architektonischen Details geschm\u00fcckt, darunter spitze B\u00f6gen und gew\u00f6lbte Fenster. Die Perspektive des Fotos ist aus einem niedrigen Winkel, was die Gr\u00f6\u00dfe und H\u00f6he der Struktur betont. Der Himmel oben ist ein klares Blau, was auf einen hellen und sonnigen Tag hindeutet."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "The grandeur of the cologne cathedral, a renowned landmark in cologne, germany. The cathedral's intricate gothic architecture is a testament to the architectural prowess of the baroque period. The facade, a mosaic of stone, stands majestically against a backdrop of a clear blue sky. The perspective of the image is from a low angle, looking up at the cathedral, emphasizing its towering height and the intricate details of its design."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "The grandeur of the cologne cathedral, a renowned landmark in cologne, germany. The cathedral's intricate gothic architecture is a testament to the craftsmanship of the era. The facade is adorned with a series of pointed arches and ribbed vaults, a characteristic feature of gothic gothic architecture. The perspective of the image is from a low angle, emphasizing the cathedral as the focal point. The sky above is a clear blue, providing a stark contrast to the stone facade of the cathedral. The image encapsulates the architectural prowess and historical significance of this renowned landmark."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "The majestic cologne cathedral, a renowned landmark in cologne, germany. The cathedral's gothic architecture is characterized by its tall, pointed spires reaching towards the clear blue sky. The facade is adorned with intricate carvings and statues, showcasing the craftsmanship of the era. The perspective of the image is from below, looking up at the cathedral, emphasizing its grandeur and historical significance."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "The majestic cologne cathedral, a renowned landmark in cologne, germany. The cathedral's gothic architecture is characterized by its tall, pointed spires reaching towards the clear blue sky. The facade is a testament to the architectural prowess of the past, with intricate carvings and statues that speak volumes about the city's rich history. The perspective of the image is from a low angle, emphasizing the grandeur and majesty of the cathedral."
+        }
+    ],
+    "images/pexels-eugeniofr-30005397.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "In the heart of a lush, verdant forest, two vibrant parrots, one with a striking green head and the other with a contrasting red head, are perched on a branch. The parrot on the left is slightly ahead of the one on the right, both facing the camera. The branch they sit on is adorned with a few leaves, adding a touch of green to the scene. The background is a blur of green foliage, suggesting a dense and thriving ecosystem. A moment of tranquility and natural beauty."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Im Herzen eines \u00fcppigen, gr\u00fcnen Waldes werden zwei lebhafte Papageien in einem Moment der Ruhe gefangen genommen. Der Papagei auf der linken Seite, mit seinem auffallend gr\u00fcnen K\u00f6rper, kontrastiert wundersch\u00f6n mit dem umgebenden Gr\u00fcn. Sein Begleiter auf der rechten Seite, der ein leuchtend gr\u00fcner K\u00f6rper und einen kontrastierenden roten Schnabel tr\u00e4gt, sitzt auf einem Baumzweig, sein Blick richtet sich auf die Kamera. Der Hintergrund ist eine Unsch\u00e4rfe von gr\u00fcnem Laub, die auf eine nat\u00fcrliche, m\u00f6glicherweise tropische Umgebung hindeutet. Das Bild strahlt ein Gef\u00fchl der Ruhe und der Sch\u00f6nheit der Natur aus."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "In the heart of a lush, verdant forest, two vibrant green parrots command attention. The parrot on the left, with its wings spread wide, is perched on a branch, its gaze fixed on something unseen in the distance. Its companion on the right, perched on the branch, is facing away from the camera, its attention seemingly drawn to something unseen. The forest around them is a tapestry of greenery, with ferns and other plants dotting the landscape. The scene is a testament to the beauty of nature, captured in a moment of tranquility."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "In the heart of a lush, verdant forest, two vibrant parrots, one with a striking green head and the other with a contrasting red head, are perched on a branch. The parrots, with their feathers a mix of green and yellow, are facing the camera, their attention seemingly drawn to something in the distance. The branch they sit on is adorned with a few leaves, adding a touch of life to the scene. The background is a dense tapestry of green foliage, suggesting a thriving ecosystem. The image exudes a sense of tranquility and the beauty of nature."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "In the heart of a lush, verdant forest, two vibrant green parrots command attention. The parrot on the left, with its striking red head and yellow beak, is perched on a branch, its gaze directed towards the camera. Its companion on the right, mirroring its companion's stance, is also perched on the branch. The forest around them is a tapestry of green foliage, with trees and bushes dotting the landscape. A moment of tranquility and harmony between nature and wildlife."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "In the heart of a lush, verdant forest, two vibrant green parrots command attention. The parrot on the left, with its striking red head and yellow beak, is perched on a branch, its gaze fixed on something in the distance. Its companion on the right, slightly blurred, adds a sense of depth to the scene. The forest around them is a tapestry of greenery, with ferns and other tropical plants dotting the landscape. A moment of tranquility and harmony between nature and wildlife."
+        }
+    ],
+    "images/pexels-eberhardgross-29674872.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A serene winter scene. In the foreground, there's a wooden gazebo with a thatched roof, inviting visitors to sit and enjoy the view. The gazebo is nestled amidst a snow-covered landscape, with a wooden fence visible in the background. Beyond the gazebo, a large, imposing castle with multiple towers and battlements stands majestically. The castle's architecture suggests it might be a historical or institutional structure, possibly a castle or a significant landmark. The sky overhead is overcast, casting a soft light over the scene. The overall atmosphere is peaceful and quiet, evoking a sense of tranquility and the quiet beauty of winter."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Eine ruhige Winterszene mit einer Holzkonstruktion mit einem spitzen Dach, m\u00f6glicherweise einem Pavillon oder einer H\u00fctte, in einem schneebedeckten Gebiet. Die Struktur ist von einem Holzzaun umgeben und im Hintergrund befindet sich ein gro\u00dfes, historisches Geb\u00e4ude mit einem prominenten Turm. Der Himmel ist bew\u00f6lkt, was auf einen kalten, m\u00f6glicherweise winterlichen Tag hindeutet. Die allgemeine Atmosph\u00e4re ist ruhig und friedlich, wobei der Schwerpunkt auf der Struktur und der umgebenden Landschaft liegt."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "A serene winter scene. In the foreground, there's a wooden gazebo with a thatched roof, inviting visitors to sit and enjoy the view. The gazebo is nestled amidst a snow-covered landscape, with a wooden fence visible in the background. Beyond the fence, a large, imposing castle-like structure with multiple towers and battlements stands majestically. The castle's architecture suggests it might be a historical or institutional structure. The sky overhead is overcast, casting a soft light over the scene. The overall atmosphere is tranquil and picturesque, evoking a sense of peace and solitude."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "A serene winter scene. In the foreground, there's a wooden gazebo with a thatched roof, inviting visitors to sit and enjoy the view. The gazebo is nestled amidst a snow-covered landscape, with a wooden fence visible in the background. Beyond the gazebo, a large, imposing castle with multiple towers and battlements looms. The castle's architecture suggests it might be a historical or medieval structure. The sky overhead is overcast, casting a soft light over the scene. The overall atmosphere is peaceful and quiet, evoking a sense of tranquility and the quiet beauty of winter."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "A serene winter scene. In the foreground, there's a wooden gazebo with a thatched roof, inviting visitors to sit and enjoy the view. The gazebo is nestled amidst a snow-covered landscape, with a wooden fence visible in the background. Beyond the gazebo, a large, imposing castle with multiple towers and battlements looms, suggesting a historical or medieval setting. The castle's architecture and the surrounding environment evoke a sense of tranquility and historical significance. The sky overhead is overcast, casting a soft light over the scene and enhancing the wintry atmosphere."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "A serene winter scene. In the foreground, there's a wooden gazebo with a thatched roof, inviting visitors to sit and enjoy the view. The gazebo is nestled amidst a snow-covered landscape, with a wooden fence visible in the background. Beyond the gazebo, a castle-like structure with multiple towers and battlements looms, suggesting a historical or medieval setting. The castle's architecture and the surrounding environment evoke a sense of tranquility and the quiet beauty of winter."
+        }
+    ],
+    "images/pexels-pixabay-61157.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "Three pelicans stand on a wooden pier, their black and white plumage contrasting with the blue water in the background. The pelicans are facing the camera, their long beaks extended as if they are about to take flight. The pier they stand on is part of a larger body of water, possibly a lake or river, and there is a small boat visible in the distance. The sky is overcast, suggesting an overcast day."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Drei wei\u00dfe Pelikane mit schwarzen Fl\u00fcgeln und Beinen stehen auf einem Holzdock mit Blick auf den Ozean. Der Pelikan auf der linken Seite hat einen rosa Schnabel, der mittlere Pelikan hat einen schwarzen Schnabel und der Vogel auf der rechten Seite hat ein wei\u00dfes Schnabel. Der Ozean ist ruhig und der Himmel ist bew\u00f6lkt."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "Three pelicans stand on a wooden pier, their black and white plumage contrasting with the blue water in the background. The pelicans are facing the camera, their long beaks and legs visible. The pier appears to be part of a larger body of water, possibly a lake or river, as suggested by the hint. The sky is overcast, casting a soft light over the scene."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "Three pelicans stand on a wooden pier, their black and white feathers contrasting with the blue water in the background. The pelicans are facing the camera, their long necks extended towards the sky. The pier appears to be part of a larger body of water, possibly a lake or river, as suggested by the hint. The sky is overcast, casting a soft light over the scene."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "Three pelicans stand on a wooden pier, their black and white feathers contrasting with the deep blue water in the background. The pelicans are facing the camera, their long necks and beaks clearly visible. The pier they stand on is part of a larger body of water, possibly a lake or a river, with a wooden structure visible in the foreground. The sky is overcast, suggesting an overcast day."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "Three pelicans stand on a wooden pier, their black and white feathers contrasting with the blue water in the background. The pelicans are facing the camera, their long necks and beaks clearly visible. The pier appears to be part of a larger body of water, possibly a lake or a river, and there are no visible texts or distinctive objects that provide additional context."
+        }
+    ]
+}

@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Scaling Laws for Conditional Emergence of Multilingual Image Captioning via Generalization from Translation
+    </title>
+    <meta
+      name="description"
+      content="Project page for the paper &quot;Scaling Laws for Conditional Emergence of Multilingual Image Captioning via Generalization from Translation&quot;."
+    />
+    <meta name="author" content="Julian Spravil" />
+    <link
+      rel="canonical"
+      href="https://spravil.com/projects/caption_via_translation/"
+    />
+
+    <meta
+      property="og:title"
+      content="Scaling Laws for Conditional Emergence of Multilingual Image Captioning via Generalization from Translation"
+    />
+    <meta
+      property="og:description"
+      content="Project page for the paper &quot;Scaling Laws for Conditional Emergence of Multilingual Image Captioning via Generalization from Translation&quot;."
+    />
+    <meta
+      property="og:url"
+      content="https://spravil.com/projects/caption_via_translation/"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Julian Spravil" />
+    <meta
+      property="og:image"
+      content="https://spravil.com/projects/caption_via_translation/images/teaser.jpg"
+    />
+    <meta property="og:image:width" content="1338" />
+    <meta property="og:image:height" content="1170" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Scaling Laws for Conditional Emergence of Multilingual Image Captioning via Generalization from Translation"
+    />
+    <meta
+      name="twitter:description"
+      content="Project page for the paper &quot;Scaling Laws for Conditional Emergence of Multilingual Image Captioning via Generalization from Translation&quot;."
+    />
+    <meta
+      name="twitter:image"
+      content="https://spravil.com/projects/caption_via_translation/images/teaser.jpg"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .bibtex-box {
+        background-color: #f6f8fa;
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+        font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+          Menlo, monospace;
+        font-size: 0.85rem;
+        line-height: 1.45;
+        overflow: auto;
+        padding: 16px;
+        white-space: pre;
+      }
+
+      .preview-btn.active {
+        background-color: #1d4ed8;
+        color: white;
+        border-color: #1d4ed8;
+      }
+
+      .icon {
+        display: inline-block;
+        flex: 0 0 auto;
+        background-color: currentColor;
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        -webkit-mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-size: contain;
+      }
+
+      .icon-external-link {
+        -webkit-mask-image: url("icons/external-link.svg");
+        mask-image: url("icons/external-link.svg");
+      }
+
+      .icon-document {
+        -webkit-mask-image: url("icons/document.svg");
+        mask-image: url("icons/document.svg");
+      }
+
+      .icon-document-text {
+        -webkit-mask-image: url("icons/document-text.svg");
+        mask-image: url("icons/document-text.svg");
+      }
+
+      .icon-code-brackets {
+        -webkit-mask-image: url("icons/code-brackets.svg");
+        mask-image: url("icons/code-brackets.svg");
+      }
+
+      .icon-copy {
+        -webkit-mask-image: url("icons/copy.svg");
+        mask-image: url("icons/copy.svg");
+      }
+
+      .icon-back-arrow {
+        -webkit-mask-image: url("icons/back-arrow.svg");
+        mask-image: url("icons/back-arrow.svg");
+      }
+    </style>
+  </head>
+  <body class="bg-white min-h-screen flex flex-col font-sans">
+    <main class="container mx-auto px-4 pt-8 max-w-5xl pb-16">
+      <div class="mb-8  text-center">
+        <a
+          href="../../index.html"
+          class="text-blue-600 hover:underline text-sm inline-flex items-center gap-1"
+          ><span
+            class="icon icon-back-arrow w-4 h-4"
+            aria-hidden="true"
+          ></span
+          ><span>Back to main page</span></a
+        >
+      </div>
+
+      <header class="mb-8 text-center">
+        <div class="text-sm sm:text-base text-gray-600 mb-2">
+          40th AAAI Conference on Artificial Intelligence (AAAI), Singapore, 2026
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-semibold mb-4 leading-tight">
+          Scaling Laws for Conditional Emergence of Multilingual Image
+          Captioning via Generalization from Translation
+        </h1>
+        <div
+          class="flex flex-wrap justify-center items-center gap-3 text-base mb-4 text-xl"
+        >
+          <span
+            ><a
+              href="https://github.com/spravil"
+              class="text-blue-600 hover:underline"
+              >Julian Spravil</a
+            ></span
+          >
+          <span
+            ><a
+              href="https://www.h-brs.de/de/inf/prof-dr-sebastian-houben"
+              class="text-blue-600 hover:underline"
+              >Sebastian Houben</a
+            ></span
+          >
+          <span
+            ><a
+              href="https://www.ais.uni-bonn.de/behnke/"
+              class="text-blue-600 hover:underline"
+              >Sven Behnke</a
+            ></span
+          >
+        </div>
+      </header>
+
+      
+      <section class="mb-10">
+        <div class="flex flex-wrap justify-center gap-2">
+          <a
+            href="https://arxiv.org/abs/2503.09443"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-1 rounded-lg bg-blue-600 text-white text-sm font-semibold px-4 py-2 shadow-sm hover:bg-blue-700 transition"
+            ><span class="icon icon-external-link w-4 h-4" aria-hidden="true"></span>
+            arXiv</a
+          >
+          <a
+            href="https://arxiv.org/pdf/2503.09443.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-1 rounded-lg border border-blue-600 text-blue-700 bg-white text-sm font-semibold px-4 py-2 shadow-sm hover:bg-blue-50 transition"
+            ><span class="icon icon-document w-4 h-4" aria-hidden="true"></span>
+            PDF</a
+          >
+          <span
+            class="inline-flex items-center justify-center gap-1 rounded-lg border border-gray-300 bg-gray-100 text-gray-600 text-sm font-semibold px-4 py-2"
+            title="Poster coming soon"
+            ><span class="icon icon-document-text w-4 h-4 opacity-70" aria-hidden="true"></span>
+            Poster</span
+          >
+          <span
+            class="inline-flex items-center justify-center gap-1 rounded-lg border border-gray-300 bg-gray-100 text-gray-600 text-sm font-semibold px-4 py-2"
+            title="Code coming soon"
+            ><span class="icon icon-code-brackets w-4 h-4 opacity-70" aria-hidden="true"></span>
+            Code</span
+          >
+        </div>
+      </section>
+
+      <section class="mb-10">
+        <figure class="max-w-2xl mx-auto">
+          <img
+            src="images/teaser.jpg"
+            alt="Teaser figure for scaling laws and multilingual image captioning via translation supervision"
+            class="w-full h-auto rounded-xl border border-gray-200 bg-white"
+            width="1338"
+            height="1170"
+            decoding="async"
+          />
+          <figcaption class="mt-2 text-sm text-gray-500 text-center">
+            Teaser: scaling model size, data, and multilinguality supports
+            emergence of prefix-based captioning in unseen languages.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="mb-10">
+        <div class="mb-4 max-w-2xl mx-auto">
+          <h2 class="text-xl font-semibold mb-2">Abstract</h2>
+          <p
+            class="text-gray-700 leading-relaxed text-base sm:text-lg text-justify inline-block"
+          >
+            Cross-lingual, cross-task transfer is challenged by task-specific
+            data scarcity, which becomes more severe as language support grows
+            and is further amplified in vision-language models (VLMs). We
+            investigate multilingual generalization in encoder-decoder
+            transformer VLMs to enable zero-shot image captioning in languages
+            encountered only in the translation task. In this setting, the
+            encoder must learn to generate generalizable, task-aware latent
+            vision representations to instruct the decoder via inserted
+            cross-attention layers. To analyze scaling behavior, we train
+            Florence-2 based and Gemma-2 based models (0.4B to 11.2B parameters)
+            on a synthetic dataset using varying compute budgets. While all
+            languages in the dataset have image-aligned translations, only a
+            subset of them include image captions. Notably, we show that
+            captioning can emerge using a language prefix, even when this
+            language only appears in the translation task. We find that indirect
+            learning of unseen task-language pairs adheres to scaling laws that
+            are governed by the multilinguality of the model, model size, and
+            seen training samples. Finally, we demonstrate that the scaling laws
+            extend to downstream tasks, achieving competitive performance
+            through fine-tuning in multimodal machine translation (Multi30K,
+            CoMMuTE), lexical disambiguation (CoMMuTE), and image captioning
+            (Multi30K, XM3600, COCO Karpathy).
+          </p>
+        </div>
+        <div
+          class="mb-4 px-4 py-3 bg-orange-100 rounded-lg border border-orange-200 max-w-2xl mx-auto"
+        >
+          <strong>TL;DR:</strong> Scaling model size, training samples, and
+          multilinguality enables prefix-based captioning in an unseen language
+          via translation supervision, yet training with full task-language
+          coverage remains essential.
+        </div>
+      </section>
+
+      <section id="previewSection" class="mb-8">
+        <div class="grid lg:grid-cols-3 gap-6">
+          <div
+            class="space-y-6 bg-white p-6 rounded-xl border border-gray-200 lg:col-span-1"
+          >
+            <div>
+              <h2 class="text-xl font-semibold mb-2">
+                Interactive Model Preview
+              </h2>
+              <p class="text-gray-600 mb-4 text-sm sm:text-base">
+                Explore how model scale, training stage, language prompts and
+                fine-tuning affect caption generation quality and style.
+              </p>
+              <div
+                id="noteBanner"
+                class="px-3 py-2 bg-orange-100 text-gray-800 text-sm rounded-lg border border-orange-200"
+              >
+                Note: Loading variant details...
+              </div>
+            </div>
+            <div>
+              <label
+                class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2"
+                >Model Size</label
+              >
+              <div class="grid grid-cols-2 gap-2">
+                <button
+                  onclick="updatePreview('size', '0.4B')"
+                  class="preview-btn size-btn px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="0.4B"
+                >
+                  0.4B
+                </button>
+                <button
+                  onclick="updatePreview('size', '1.0B')"
+                  class="preview-btn size-btn px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="1.0B"
+                >
+                  1.0B
+                </button>
+                <button
+                  onclick="updatePreview('size', '3.5B')"
+                  class="preview-btn size-btn px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="3.5B"
+                >
+                  3.5B
+                </button>
+                <button
+                  onclick="updatePreview('size', '11.2B')"
+                  class="preview-btn size-btn active px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="11.2B"
+                >
+                  11.2B
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <label
+                class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2"
+                >Variant</label
+              >
+              <div class="grid grid-cols-1 gap-2">
+                <button
+                  onclick="updatePreview('variant', 'pretrained')"
+                  class="preview-btn variant-btn px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="pretrained"
+                >
+                  Pre-trained
+                </button>
+                <button
+                  onclick="updatePreview('variant', 'pretrained_prefix')"
+                  class="preview-btn variant-btn active px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="pretrained_prefix"
+                >
+                  Pre-trained with prefix
+                </button>
+                <button
+                  onclick="updatePreview('variant', 'finetuned_coco')"
+                  class="preview-btn variant-btn px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="finetuned_coco"
+                >
+                  Fine-tuned (COCO-style)
+                </button>
+                <button
+                  onclick="updatePreview('variant', 'finetuned_image_paragraph')"
+                  class="preview-btn variant-btn px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="finetuned_image_paragraph"
+                >
+                  Fine-tuned (Image Paragraphs)
+                </button>
+                <button
+                  onclick="updatePreview('variant', 'finetuned_docci')"
+                  class="preview-btn variant-btn px-3 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="finetuned_docci"
+                >
+                  Fine-tuned (DOCCI-style)
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <label
+                class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2"
+                >Language</label
+              >
+              <div class="grid grid-cols-3 gap-2">
+                <button
+                  onclick="updatePreview('lang', 'en')"
+                  class="preview-btn lang-btn px-2 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="en"
+                >
+                  English
+                </button>
+                <button
+                  onclick="updatePreview('lang', 'de')"
+                  class="preview-btn lang-btn active px-2 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="de"
+                >
+                  German
+                </button>
+                <button
+                  onclick="updatePreview('lang', 'fr')"
+                  class="preview-btn lang-btn px-2 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="fr"
+                >
+                  French
+                </button>
+                <button
+                  onclick="updatePreview('lang', 'es')"
+                  class="preview-btn lang-btn px-2 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="es"
+                >
+                  Spanish
+                </button>
+                <button
+                  onclick="updatePreview('lang', 'zh')"
+                  class="preview-btn lang-btn px-2 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="zh"
+                >
+                  Chinese
+                </button>
+                <button
+                  onclick="updatePreview('lang', 'ru')"
+                  class="preview-btn lang-btn px-2 py-2 text-sm border rounded-md hover:bg-gray-50 transition-colors"
+                  data-value="ru"
+                >
+                  Russian
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="lg:col-span-2 bg-white rounded-xl overflow-hidden border border-gray-200"
+          >
+            <div
+              class="relative group flex flex-col bg-gray-50 border-b border-gray-200"
+            >
+              <div
+                class="h-64 sm:h-80 w-full flex items-center justify-center p-4"
+              >
+                <img
+                  id="imageDisplay"
+                  src=""
+                  class="max-h-full max-w-full object-contain rounded"
+                  alt="Selected preview image for caption generation"
+                  decoding="async"
+                />
+              </div>
+              <div class="px-4 pb-2 -mt-2 text-center text-xs text-gray-500">
+                <span id="imageCredit"></span>
+              </div>
+
+              <div class="w-full flex justify-center pb-4">
+                <div
+                  id="thumbContainer"
+                  class="bg-white p-1.5 rounded-lg border border-gray-200 shadow-sm flex gap-2"
+                ></div>
+              </div>
+            </div>
+
+            <div class="p-6 bg-white">
+              <div class="flex justify-between items-center mb-3">
+                <span
+                  class="text-gray-500 text-xs uppercase tracking-widest font-semibold"
+                  >Generated Caption</span
+                >
+                <span
+                  id="modelBadge"
+                  class="text-[10px] uppercase px-2 py-1 rounded bg-gray-100 text-gray-600 border border-gray-200 font-medium"
+                  >11.2B | Fine-tuned</span
+                >
+              </div>
+
+              <div
+                id="outputDisplay"
+                class="text-gray-900 text-lg leading-relaxed font-sans min-h-[60px]"
+              >
+                Loading captions...
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-8">
+        <div class="flex items-center justify-between gap-3 mb-2">
+          <h2 class="text-xl font-semibold">Citation</h2>
+          <button
+            id="copyBibtexBtn"
+            type="button"
+            class="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded border border-gray-300 bg-white hover:bg-gray-50 transition"
+          >
+            <span class="icon icon-copy w-4 h-4" aria-hidden="true"></span>
+            <span>Copy BibTeX</span>
+          </button>
+        </div>
+        <pre id="bibtexText" class="bibtex-box">@article{spravil2025florenz,
+  title={Scaling Laws for Conditional Emergence of Multilingual Image Captioning via Generalization from Translation},
+  author={Spravil, Julian and Houben, Sebastian and Behnke, Sven},
+  journal={arXiv preprint arXiv:2503.09443},
+  year={2025}
+}</pre>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        image: null,
+        size: "11.2B",
+        variant: "pretrained_prefix",
+        lang: "de",
+        stage: "pretrained",
+        prefix: "on",
+        data: null,
+        images: [],
+      };
+      let typingTimer = null;
+
+      const modelFiles = {
+        "0.4B": {
+          pretrained: "data/0_4B_no_prefix.json",
+          pretrained_prefix: "data/0_4B.json",
+          finetuned_coco: "data/0_4B_finetuned_coco.json",
+          finetuned_image_paragraph: "data/0_4B_finetuned_image_paragraph.json",
+          finetuned_docci: "data/0_4B_finetuned_docci.json",
+        },
+        "1.0B": {
+          pretrained: "data/1_0B_no_prefix.json",
+          pretrained_prefix: "data/1_0B.json",
+          finetuned_coco: "data/1_0B_finetuned_coco.json",
+          finetuned_image_paragraph: "data/1_0B_finetuned_image_paragraph.json",
+          finetuned_docci: "data/1_0B_finetuned_docci.json",
+        },
+        "3.5B": {
+          pretrained: "data/3_5B_no_prefix.json",
+          pretrained_prefix: "data/3_5B.json",
+          finetuned_coco: "data/3_5B_finetuned_coco.json",
+          finetuned_image_paragraph: "data/3_5B_finetuned_image_paragraph.json",
+          finetuned_docci: "data/3_5B_finetuned_docci.json",
+        },
+        "11.2B": {
+          pretrained: "data/11_2B_no_prefix.json",
+          pretrained_prefix: "data/11_2B.json",
+          finetuned_coco: "data/11_2B_finetuned_coco.json",
+          finetuned_image_paragraph:
+            "data/11_2B_finetuned_image_paragraph.json",
+          finetuned_docci: "data/11_2B_finetuned_docci.json",
+        },
+      };
+
+      const dataCache = {};
+      const notes = {
+        pretrained:
+          "Note: Model only saw these languages in a translation task; captioning supervision was English and German only.",
+        pretrained_prefix:
+          "Note: Model only saw these languages in a translation task; captioning supervision was English and German only.",
+        finetuned_coco:
+          "Note: Model fine-tuned on captioning and translation datasets (Multi30K, Image Paragraphs, DOCCI, and COCO Karpathy). Missing languages were added via machine translation.",
+        finetuned_image_paragraph:
+          "Note: Model fine-tuned on captioning and translation datasets (Multi30K, Image Paragraphs, DOCCI, and COCO Karpathy). Missing languages were added via machine translation.",
+        finetuned_docci:
+          "Note: Model fine-tuned on captioning and translation datasets (Multi30K, Image Paragraphs, DOCCI, and COCO Karpathy). Missing languages were added via machine translation.",
+      };
+
+      function escapeRegExp(str) {
+        return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+
+      const pexelsCreditLookup = {
+        "pexels-addie-1650035-3152126.jpg": {
+          name: "Addie",
+          link: "https://www.pexels.com/photo/3152126/",
+        },
+        "pexels-eberhardgross-29674872.jpg": {
+          name: "eberhardgross",
+          link: "https://www.pexels.com/photo/29674872/",
+        },
+        "pexels-eugeniofr-30005397.jpg": {
+          name: "Eugenio Felix",
+          link: "https://www.pexels.com/photo/30005397/",
+        },
+        "pexels-f4bi-130350.jpg": {
+          name: "F4Bi",
+          link: "https://www.pexels.com/photo/130350/",
+        },
+        "pexels-nextvoyage-3520548.jpg": {
+          name: "Nextvoyage",
+          link: "https://www.pexels.com/photo/3520548/",
+        },
+        "pexels-phyo-hein-kyaw-305378-2523644.jpg": {
+          name: "Phyo Hein Kyaw",
+          link: "https://www.pexels.com/photo/2523644/",
+        },
+        "pexels-pixabay-61157.jpg": {
+          name: "Pixabay",
+          link: "https://www.pexels.com/photo/61157/",
+        },
+        "pexels-reinaldo-30774192.jpg": {
+          name: "Reinaldo",
+          link: "https://www.pexels.com/photo/30774192/",
+        },
+      };
+
+      function pexelsCreditFor(imagePath) {
+        if (!imagePath) return null;
+        const filename = imagePath.split("/").pop() || "";
+        if (!/^pexels-/i.test(filename)) return null;
+
+        const credit = pexelsCreditLookup[filename];
+        if (!credit) return null;
+
+        const label = credit.name
+          ? `Photo by ${credit.name} (Pexels)`
+          : "Photo (Pexels)";
+
+        return { label, photographerUrl: credit.link, photoUrl: credit.link };
+      }
+
+      function variantLabel(value) {
+        if (value === "pretrained_prefix") return "Pre-trained + Prefix";
+        if (value === "finetuned_coco") return "Fine-tuned (COCO-style)";
+        if (value === "finetuned_image_paragraph")
+          return "Fine-tuned (Image Paragraphs)";
+        if (value === "finetuned_docci") return "Fine-tuned (DOCCI-style)";
+        return "Pre-trained";
+      }
+
+      function startTyping(target, prefixNode, text) {
+        if (typingTimer) {
+          clearTimeout(typingTimer);
+          typingTimer = null;
+        }
+        target.innerHTML = "";
+
+        if (prefixNode) {
+          target.appendChild(prefixNode);
+          target.appendChild(document.createTextNode(" "));
+        }
+
+        const textSpan = document.createElement("span");
+        target.appendChild(textSpan);
+
+        let i = 0;
+        const chunk = Math.max(8, Math.ceil(text.length / 20)); // slightly slower than previous
+        const step = () => {
+          textSpan.textContent = text.slice(0, i);
+          i += chunk;
+          if (i <= text.length) {
+            typingTimer = requestAnimationFrame(step);
+          } else {
+            textSpan.textContent = text; // ensure full text
+          }
+        };
+        step();
+      }
+
+      function setActiveButtons(key, value) {
+        const selectorMap = {
+          size: ".size-btn",
+          variant: ".variant-btn",
+          lang: ".lang-btn",
+        };
+        const selector = selectorMap[key];
+        if (!selector) return;
+        document.querySelectorAll(selector).forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.value === value);
+        });
+      }
+
+      function thumbSrcFor(imagePath) {
+        // Prefer small thumbnails to avoid downloading multi-MB images for the preview strip.
+        // Falls back to the original path if no thumbnail exists.
+        const prefix = "images/";
+        if (!imagePath || !imagePath.startsWith(prefix)) return imagePath;
+        return "images/thumbs/" + imagePath.slice(prefix.length);
+      }
+
+      async function loadModelData() {
+        const file = modelFiles[state.size]?.[state.variant];
+        const outputDisplay = document.getElementById("outputDisplay");
+        const imageDisplay = document.getElementById("imageDisplay");
+        if (!file) {
+          state.data = null;
+          state.images = [];
+          state.image = null;
+          renderThumbnails();
+          outputDisplay.textContent = "Data coming soon for this variant.";
+          imageDisplay.src = "";
+          updateBadge();
+          return;
+        }
+
+        if (dataCache[file]) {
+          state.data = dataCache[file];
+        } else {
+          try {
+            const res = await fetch(file);
+            if (!res.ok) throw new Error("Missing data");
+            const json = await res.json();
+            dataCache[file] = json;
+            state.data = json;
+          } catch (err) {
+            state.data = null;
+          }
+        }
+
+        if (!state.data) {
+          state.images = [];
+          state.image = null;
+          renderThumbnails();
+          outputDisplay.textContent = "Data coming soon for this variant.";
+          imageDisplay.src = "";
+          updateBadge();
+          return;
+        }
+
+        state.images = Object.keys(state.data);
+        if (!state.images.includes(state.image)) {
+          state.image = state.images[0] || null;
+        }
+        renderThumbnails();
+        renderOutput();
+      }
+
+      function renderThumbnails() {
+        const container = document.getElementById("thumbContainer");
+        container.innerHTML = "";
+        state.images.forEach((img) => {
+          const btn = document.createElement("button");
+          btn.className =
+            "image-thumb relative w-12 h-12 rounded overflow-hidden border-2 border-transparent hover:border-blue-400 transition-all focus:outline-none opacity-60 hover:opacity-100";
+          btn.dataset.img = img;
+          btn.onclick = () => selectImage(img);
+          if (state.image === img) {
+            btn.classList.add("border-blue-400", "opacity-100");
+            btn.classList.remove("opacity-60", "border-transparent");
+          }
+          const thumb = document.createElement("img");
+          thumb.src = thumbSrcFor(img);
+          thumb.alt = "Option";
+          thumb.className = "w-full h-full object-cover";
+          thumb.loading = "lazy";
+          thumb.decoding = "async";
+          const credit = pexelsCreditFor(img);
+          if (credit) {
+            thumb.title = credit.label;
+            btn.title = credit.label;
+          }
+          thumb.onerror = () => {
+            // If thumbnails are missing, fall back to the full image path.
+            thumb.onerror = null;
+            thumb.src = img;
+          };
+          btn.appendChild(thumb);
+          container.appendChild(btn);
+        });
+      }
+
+      function selectImage(img) {
+        state.image = img;
+        renderThumbnails();
+        renderOutput();
+      }
+
+      function renderNote() {
+        const note = document.getElementById("noteBanner");
+        note.textContent = notes[state.variant] || "";
+      }
+
+      function renderOutput() {
+        const imageDisplay = document.getElementById("imageDisplay");
+        const outputDisplay = document.getElementById("outputDisplay");
+        const imageCredit = document.getElementById("imageCredit");
+        if (!state.data || !state.image) {
+          outputDisplay.textContent = "Select a variant to view captions.";
+          imageDisplay.src = "";
+          if (imageCredit) imageCredit.textContent = "";
+          updateBadge();
+          renderNote();
+          return;
+        }
+
+        imageDisplay.src = state.image;
+        imageDisplay.loading = "eager";
+        const credit = pexelsCreditFor(state.image);
+        if (imageCredit) {
+          if (credit) {
+            imageCredit.innerHTML = `<a href="${credit.photoUrl}" target="_blank" rel="noopener noreferrer" class="hover:underline">${credit.label}</a>`;
+          } else {
+            imageCredit.textContent = "";
+          }
+        }
+        imageDisplay.title = credit?.label || "";
+
+        const entries = state.data[state.image] || [];
+        const match =
+          entries.find((entry) => entry.lang === state.lang) || entries[0];
+        if (!match) {
+          outputDisplay.textContent = "No caption available for this language.";
+          updateBadge();
+          renderNote();
+          return;
+        }
+
+        const showPrefix =
+          state.variant === "pretrained_prefix" && match.prefix;
+        let text = match.generated_text || "";
+        if (showPrefix) {
+          const regex = new RegExp(
+            "^\\s*" + escapeRegExp(match.prefix) + "\\s*:?",
+            "i"
+          );
+          text = text.replace(regex, "").trim();
+        }
+
+        const prefixSpan = showPrefix
+          ? (() => {
+              const s = document.createElement("span");
+              s.className = "text-blue-600 font-semibold";
+              s.textContent = match.prefix;
+              return s;
+            })()
+          : null;
+
+        startTyping(outputDisplay, prefixSpan, text);
+
+        updateBadge();
+        renderNote();
+      }
+
+      function updateBadge() {
+        const badge = document.getElementById("modelBadge");
+        badge.innerText = `${state.size} | ${variantLabel(state.variant)}`;
+      }
+
+      async function updatePreview(key, value) {
+        if (key) state[key] = value;
+
+        if (key === "variant") {
+          if (value === "pretrained") {
+            state.stage = "pretrained";
+            state.prefix = "off";
+          } else if (value === "pretrained_prefix") {
+            state.stage = "pretrained";
+            state.prefix = "on";
+          } else if (
+            value === "finetuned_coco" ||
+            value === "finetuned_image_paragraph" ||
+            value === "finetuned_docci"
+          ) {
+            state.stage = "finetuned";
+            state.prefix = "off";
+          } else {
+            state.stage = "pretrained";
+            state.prefix = "off";
+          }
+        }
+
+        setActiveButtons(key, value);
+
+        if (key === "size" || key === "variant") {
+          const didInit = await ensurePreviewInitialized();
+          if (!didInit) await loadModelData();
+        } else if (key === "lang") {
+          const didInit = await ensurePreviewInitialized();
+          if (!didInit) renderOutput();
+        }
+        renderNote();
+      }
+
+      let previewInitialized = false;
+      async function ensurePreviewInitialized() {
+        if (previewInitialized) return false;
+        previewInitialized = true;
+        await loadModelData();
+        return true;
+      }
+
+      function setupDeferredPreviewInit() {
+        const outputDisplay = document.getElementById("outputDisplay");
+        const noteBanner = document.getElementById("noteBanner");
+        if (outputDisplay) outputDisplay.textContent = "Scroll to load preview…";
+        if (noteBanner) noteBanner.textContent = "Note: Scroll to load preview.";
+
+        const previewSection = document.getElementById("previewSection");
+        if (!previewSection) {
+          ensurePreviewInitialized();
+          return;
+        }
+
+        if (!("IntersectionObserver" in window)) {
+          // Old browsers: initialize shortly after load.
+          window.setTimeout(() => ensurePreviewInitialized(), 300);
+          return;
+        }
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            if (entries.some((e) => e.isIntersecting)) {
+              observer.disconnect();
+              ensurePreviewInitialized();
+            }
+          },
+          { root: null, rootMargin: "200px 0px", threshold: 0.01 }
+        );
+        observer.observe(previewSection);
+      }
+
+      // Initialize (defer heavy image + data work until the preview is near viewport).
+      setupDeferredPreviewInit();
+
+      (function setupBibtexCopy() {
+        const btn = document.getElementById("copyBibtexBtn");
+        const pre = document.getElementById("bibtexText");
+        if (!btn || !pre) return;
+
+        const getText = () => (pre.textContent || "").trim() + "\n";
+        const setState = (label, ok) => {
+          btn.textContent = label;
+          btn.classList.toggle("border-green-300", !!ok);
+          btn.classList.toggle("text-green-700", !!ok);
+        };
+
+        btn.addEventListener("click", async () => {
+          const text = getText();
+          try {
+            if (navigator.clipboard?.writeText) {
+              await navigator.clipboard.writeText(text);
+            } else {
+              const ta = document.createElement("textarea");
+              ta.value = text;
+              ta.setAttribute("readonly", "");
+              ta.style.position = "fixed";
+              ta.style.left = "-9999px";
+              document.body.appendChild(ta);
+              ta.select();
+              document.execCommand("copy");
+              ta.remove();
+            }
+            setState("Copied", true);
+          } catch {
+            setState("Copy failed", false);
+          }
+          window.setTimeout(() => setState("Copy BibTeX", false), 1200);
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+{
+    "images/pexels-addie-1650035-3152126.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A bunch of tall trees that are lit up. The trees are very tall. The lights on the trees are pink."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Die B\u00e4ume sind beleuchtet. Die Lichter sind rosa. Der Himmel ist blau. Die B\u00e4ume sind sehr gro\u00df."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "Il y a des arbres qui ont des lumi\u00e8res sur eux. Les lumi\u00e8res sont roses et blanches. Il y a un ciel bleu derri\u00e8re les arbres."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "Los \u00e1rboles est\u00e1n iluminados por la noche. Los \u00e1rboles tienen luces en ellos. Las luces son de color rosa brillante. El cielo es azul oscuro."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "\u041f\u044f\u0442\u044c \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u0434\u0435\u0440\u0435\u0432\u044c\u0435\u0432 \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u044b \u0444\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u043c\u0438 \u0438 \u0440\u043e\u0437\u043e\u0432\u044b\u043c\u0438 \u043e\u0433\u043d\u044f\u043c\u0438. \u041d\u0435\u0431\u043e \u0442\u0435\u043c\u043d\u043e-\u0441\u0438\u043d\u0435\u0435 \u0438 \u044f\u0441\u043d\u043e\u0435. \u0414\u0435\u0440\u0435\u0432\u044c\u044f \u0432\u044b\u0441\u043e\u043a\u0438\u0435 \u0438 \u0442\u0435\u043c\u043d\u043e-\u043a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0435."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "\u8fd9\u5f20\u7167\u7247\u662f\u5728\u665a\u4e0a\u62cd\u6444\u7684.\u5929\u7a7a\u662f\u6df1\u84dd\u8272\u7684,\u6ca1\u6709\u4e91\u5f69.\u6709\u4e94\u68f5\u9ad8\u5927\u7684\u6811\u6728.\u6811\u6728\u662f\u6df1\u68d5\u8272\u7684,\u4e0a\u9762\u6709\u7c89\u7ea2\u8272\u548c\u7d2b\u8272\u7684\u706f\u5149.\u5728\u6811\u6728\u7684\u9876\u90e8\u6709\u4e00\u4e2a\u5706\u5f62\u7684\u5c4b\u9876.\u5728\u5efa\u7b51\u7269\u524d\u9762\u6709\u4e00\u4e2a\u957f\u957f\u7684\u91d1\u5c5e\u62a4.\u5728\u62a4\u4e0a\u7684\u4eba\u884c\u9053\u4e0a\u884c\u8d70\u3002"
+        }
+    ],
+    "images/pexels-nextvoyage-3520548.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A couple of tall buildings next to each other. The sky is partly cloudy."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Zwei Wolkenkratzer stehen nebeneinander. Der Himmel ist teilweise bew\u00f6lkt und blau. Die Wolken sind wei\u00df und flauschig. Auf der Spitze des Wolkenkratzers sind gr\u00fcne Pflanzen. Unter den Wolken sind gr\u00fcne B\u00e4ume."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "Il y a deux gratte-ciel dans le ciel. Le ciel est bleu avec des nuages blancs. Il y a des arbres \u00e0 l'avant du b\u00e2timent. Le b\u00e2timent \u00e0 gauche a des fen\u00eatres."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "Hay dos rascacielos en el cielo. El cielo es azul con nubes blancas hinchadas. Hay \u00e1rboles en la parte inferior de la imagen. Los \u00e1rboles tienen hojas verdes en ellos."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "\u0414\u0432\u0430 \u0432\u044b\u0441\u043e\u043a\u0438\u0445 \u043d\u0435\u0431\u043e\u0441\u043a\u0440\u0435\u0431\u0430 \u0441\u0442\u043e\u044f\u0442 \u0440\u044f\u0434\u043e\u043c \u0434\u0440\u0443\u0433 \u0441 \u0434\u0440\u0443\u0433\u043e\u043c. \u0417\u0434\u0430\u043d\u0438\u044f \u0438\u043c\u0435\u044e\u0442 \u043c\u043d\u043e\u0433\u043e \u043e\u043a\u043e\u043d \u043d\u0430 \u043d\u0438\u0445. \u041d\u0435\u0431\u043e \u0433\u043e\u043b\u0443\u0431\u043e\u0435 \u0441 \u0431\u0435\u043b\u044b\u043c\u0438 \u043f\u0443\u0448\u0438\u0441\u0442\u044b\u043c\u0438 \u043e\u0431\u043b\u0430\u043a\u0430\u043c\u0438."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "\u4e24\u5ea7\u6469\u5929\u5927\u697c\u5728\u9633\u5149\u660e\u7684\u4e00\u5929\u5728\u5916\u9762\u770b\u5230.\u5176\u4e2d\u4e00\u5ea7\u5efa\u7b51\u662f\u767d\u8272\u7684,\u4e0a\u9762\u6709\u7eff\u8272\u7684\u690d\u7269.\u5efa\u7b51\u7684\u5e95\u90e8\u6709\u6811\u6728.\u5929\u7a7a\u662f\u84dd\u8272\u7684,\u6709\u767d\u8272\u7684\u81a8\u80c0\u7684\u4e91\u3002"
+        }
+    ],
+    "images/pexels-phyo-hein-kyaw-305378-2523644.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A large water fountain in the middle of a park. The fountain is spraying water. There are many trees around the fountain."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Es gibt einen gro\u00dfen Wasserbrunnen in der Mitte des Bildes. Der Wasserbrunnen hat Wasser, das von ihm herunterstr\u00f6mt. Es gibt viele B\u00e4ume um den Brunnen herum. Die B\u00e4ume sind \u00fcppig und gr\u00fcn."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "Il y a une grande fontaine d'eau qui sort de l'eau. L'eau est blanche. Il y a des arbres autour de la fontaine."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "Hay una gran fuente de agua en el centro de la imagen. La fuente es de color blanco. Hay \u00e1rboles alrededor de la fuente. Hay un puente en el fondo de la foto. El puente est\u00e1 hecho de metal. Hay personas caminando por el puente. Hay muchos \u00e1rboles alrededor del puente. Los \u00e1rboles son de color verde oscuro."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "\u042d\u0442\u043e \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0444\u043e\u043d\u0442\u0430\u043d\u0430. \u0444\u043e\u043d\u0442\u0430\u043d \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0446\u0435\u043d\u0442\u0440\u0435 \u0437\u0434\u0430\u043d\u0438\u044f. \u0424\u043e\u043d\u0442\u0430\u043d \u0431\u0435\u043b\u044b\u0439 \u0438 \u0438\u043c\u0435\u0435\u0442 \u0444\u043e\u0440\u043c\u0443 \u043a\u0440\u0443\u0433\u043b\u0430\u044f \u043a\u0440\u044b\u0448\u0438. \u041d\u0430 \u043a\u0440\u044b\u0448\u0435 \u043a\u0440\u044b\u0448\u0438 \u0435\u0441\u0442\u044c \u0447\u0435\u0440\u043d\u044b\u0435 \u043c\u0435\u0442\u0430\u043b\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0441\u0442\u043e\u043b\u0431\u044b. \u0412\u043e\u043a\u0440\u0443\u0433 \u0444\u043e\u043d\u0442\u0430\u043d\u0430 \u043c\u043d\u043e\u0433\u043e \u0434\u0435\u0440\u0435\u0432\u044c\u0435\u0432."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "\u4e00\u4e2a\u5927\u55b7\u6cc9\u4ece\u5929\u82b1\u677f\u4e0a\u6d41\u51fa\u6765.\u55b7\u6cc9\u5468\u56f4\u6709\u6811\u6728.\u5929\u82b1\u677f\u662f\u7531\u91d1\u5c5e\u5236\u6210\u7684.\u5728\u55b7\u6cc9\u540e\u9762\u6709\u4e00\u4e2a\u6865\u3002"
+        }
+    ],
+    "images/pexels-reinaldo-30774192.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A person standing in front of a train. The train is yellow. The person is wearing a black jacket."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Ein gelber Zug ist in einem Bahnhof geparkt. Vor dem Zug steht eine Person. Vor der Person steht eine Reihe von Metallb\u00e4nken."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "Un train jaune est \u00e0 l'int\u00e9rieur d'une gare. Il y a un panneau blanc au-dessus des bancs. Une personne porte un sac \u00e0 dos noir."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "Un hombre est\u00e1 de pie frente a un tren. El tren es amarillo. El hombre lleva una chaqueta negra. Hay un letrero blanco en la parte delantera del tren."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "\u0416\u0435\u043b\u0442\u044b\u0439 \u043f\u043e\u0435\u0437\u0434 \u043d\u0430 \u0441\u0442\u0430\u043d\u0446\u0438\u0438 \u043c\u0435\u0442\u0440\u043e. \u041f\u0435\u0440\u0435\u0434 \u043f\u043e\u0435\u0437\u0434\u043e\u043c \u0441\u0442\u043e\u0438\u0442 \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u0432 \u0447\u0435\u0440\u043d\u043e\u0439 \u043a\u0443\u0440\u0442\u043a\u0435 \u0438 \u0440\u044e\u043a\u0437\u0430\u043a\u0435. \u041d\u0430 \u043f\u043e\u0442\u043e\u043b\u043a\u0435 \u043d\u0430\u0434 \u043f\u043e\u0435\u0437\u0434\u0430\u043c\u0438 \u0435\u0441\u0442\u044c \u0442\u0430\u0431\u043b\u0438\u0447\u043a\u0430. \u0420\u044f\u0434\u043e\u043c \u0441 \u0442\u0430\u0431\u043b\u0438\u0447\u043a\u043e\u0439 \u0435\u0441\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0435\u0440\u0435\u0431\u0440\u044f\u043d\u044b\u0445 \u0441\u043a\u0430\u043c\u0435\u0439\u043a\u0438."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "\u4e00\u4e2a\u7a7f\u7740\u9ed1\u8272\u5916\u5957\u548c\u80cc\u5305\u7684\u4eba\u7ad9\u5728\u706b\u8f66\u7ad9\u7684\u524d\u9762.\u706b\u8f66\u662f\u9ec4\u8272\u7684,\u6709\u8bb8\u591a\u7a97\u6237.\u706b\u8f66\u7ad9\u7684\u5730\u677f\u662f\u7070\u8272\u7684.\u5728\u706b\u8f66\u7ad9\u524d\u9762\u6709\u516d\u4e2a\u94f6\u8272\u7684\u957f\u6905.\u5728\u957f\u6905\u7684\u524d\u9762\u6709\u4e00\u4e2a\u767d\u8272\u7684\u6807\u5fd7.\u5728\u6807\u5fd7\u4e0a\u65b9\u6709\u4e00\u4e2a\u5706\u5f62\u7684\u9ed1\u8272\u67f1\u5b50\u3002"
+        }
+    ],
+    "images/pexels-f4bi-130350.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A very tall building with two spires on top of it. The building is made of stone and has many windows."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Das Bild ist von einem hohen Geb\u00e4ude. Das Geb\u00e4ude ist sehr alt. Die Spitze des Geb\u00e4udes ist spitz. Der Himmel ist teilweise bew\u00f6lkt. Es gibt viele Wolken am Himmel. Die Wolken sind wei\u00df und grau. Die Fenster auf dem Geb\u00e4ude sind sehr gro\u00df. Das Fenster auf der linken Seite hat eine Glasplatte darauf. Das Dach auf der rechten Seite hat zwei spitze D\u00e4cher."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "L'image est celle d'une \u00e9glise. L'\u00e9glise est tr\u00e8s ancienne. Il y a deux tours sur l'\u00e9glise. Les tours sont tr\u00e8s pointues. Le toit de la \u00e9glise est en m\u00e9tal. Le ciel est bleu avec des nuages blancs. Les nuages sont moelleux et moelleux. Les fen\u00eatres de la\u00e9glise sont en verre. Les vo\u00fbt\u00e9es de la cath\u00e9drale sont en pierre."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "La imagen es de un gran edificio. El edificio es de color gris. Hay muchas ventanas en la parte delantera del edificio. Hay dos torres en el edificio. Las torres son puntiagudas. El cielo est\u00e1 parcialmente nublado y azul."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "\u0417\u0434\u0430\u043d\u0438\u0435 \u0441\u0434\u0435\u043b\u0430\u043d\u043e \u0438\u0437 \u0441\u0435\u0440\u043e\u0433\u043e \u043a\u0430\u043c\u043d\u044f. \u0417\u0434\u0430\u043d\u0438\u0435 \u0438\u043c\u0435\u0435\u0442 \u0430\u0440\u043e\u0447\u043d\u044b\u0435 \u043e\u043a\u043d\u0430. \u041d\u0430 \u0432\u0435\u0440\u0448\u0438\u043d\u0435 \u0437\u0434\u0430\u043d\u0438\u044f \u0435\u0441\u0442\u044c \u043c\u0435\u0442\u0430\u043b\u043b\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f. \u041d\u0435\u0431\u043e \u0433\u043e\u043b\u0443\u0431\u043e\u0435 \u0441 \u0431\u0435\u043b\u044b\u043c\u0438 \u043e\u0431\u043b\u0430\u043a\u0430\u043c\u0438."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "\u4e00\u5ea7\u53e4\u8001\u7684\u5efa\u7b51\u5728\u9633\u5149\u660e\u7684\u4e00\u5929.\u5efa\u7b51\u7684\u9876\u90e8\u6709\u4e24\u4e2a\u5c16\u5854.\u5c16\u5854\u7684\u9876\u90e8\u6709\u4e00\u4e2a\u91d1\u5c5e\u7ed3\u6784.\u5efa\u7b51\u4e0a\u6709\u5f88\u591a\u7a97\u6237.\u5929\u7a7a\u662f\u84dd\u8272\u7684,\u6709\u4e00\u4e9b\u767d\u8272\u7684\u4e91\u3002"
+        }
+    ],
+    "images/pexels-eugeniofr-30005397.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A parrot is perched on a branch in a forest. The parrot has a bright green head and a bright orange tail."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Ein gr\u00fcner Papagei sitzt auf einem Zweig. Der Vogel hat einen roten Schnabel und einen gelben Schwanz. Hinter dem Vogel stehen B\u00e4ume."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "Il y a deux oiseaux sur une branche. Les oiseaux sont verts et jaunes. L'oiseau a un bec rouge. Il y a des arbres derri\u00e8re les oiseaux."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "Dos loros est\u00e1n sentados en un tronco de \u00e1rbol. Los loros son verdes y amarillos. El p\u00e1jaro m\u00e1s cercano a la c\u00e1mara tiene un pico rojo. El otro p\u00e1jaro est\u00e1 detr\u00e1s de \u00e9l. Los \u00e1rboles detr\u00e1s de los loros tienen hojas verdes."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "\u0417\u0435\u043b\u0451\u043d\u0430\u044f \u0438 \u0436\u0435\u043b\u0442\u0430\u044f \u043f\u0442\u0438\u0446\u0430 \u0441 \u043a\u0440\u0430\u0441\u043d\u044b\u043c \u043a\u043b\u044e\u0432\u043e\u043c \u0441\u0438\u0434\u0438\u0442 \u043d\u0430 \u0432\u0435\u0442\u043a\u0435 \u0434\u0435\u0440\u0435\u0432\u0430. \u0417\u0430 \u043f\u0442\u0438\u0446\u0430\u043c\u0438 \u0435\u0441\u0442\u044c \u043a\u0443\u0447\u0430 \u0434\u0435\u0440\u0435\u0432\u044c\u0435\u0432."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "\u4e00\u53ea\u7eff\u8272\u7684\u9e1f\u5750\u5728\u6811\u679d\u4e0a. \u8fd9\u53ea\u9e1f\u6709\u9ec4\u8272\u7684\u7fbd\u6bdb\u548c\u9ec4\u8272\u7684\u5c3e\u5df4. \u5b83\u7684\u5634\u5df4\u662f\u7ea2\u8272\u7684. \u5728\u6811\u679d\u7684\u53e6\u4e00\u8fb9\u53ef\u4ee5\u770b\u5230\u53e6\u4e00\u53ea\u9e1f\u3002"
+        }
+    ],
+    "images/pexels-eberhardgross-29674872.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A large building sitting on top of a hill. The building is covered in snow. In front of the building is a covered walkway."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Es gibt ein Geb\u00e4ude, das auf einem H\u00fcgel liegt. Vor dem Geb\u00e4ude gibt es einen Holzzaun. Auf dem Dach des Geb\u00e4udes steht ein Schild."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "L'image est celle d'un ch\u00e2teau. Le ch\u00e2teau est sur une colline couverte de neige. Il y a une cl\u00f4ture en bois devant le ch\u00e2teau. La cl\u00f4ture a des poteaux en bois. Le toit de la cl\u00f4ture a un panneau dessus. Le panneau a des lettres blanches. Le ciel au-dessus de la colline est gris et nuageux. Les arbres \u00e0 l'arri\u00e8re-plan sont nus."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "Un gran castillo est\u00e1 en la cima de una colina cubierta de nieve. El castillo es de color marr\u00f3n claro y tiene un campanario en la parte superior. Hay una puerta en el centro de la imagen con un letrero en \u00e9l. Hay un peque\u00f1o cobertizo de madera en frente del cobertizo. Hay nieve en el suelo debajo de la puerta."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "\u0417\u0434\u0430\u043d\u0438\u0435 \u043d\u0430 \u0445\u043e\u043b\u043c\u0435. \u0414\u0435\u0440\u0435\u0432\u044c\u044f \u043f\u043e\u043a\u0440\u044b\u0442\u044b \u0441\u043d\u0435\u0433\u043e\u043c. \u041d\u0430 \u0432\u0435\u0440\u0448\u0438\u043d\u0435 \u0437\u0434\u0430\u043d\u0438\u044f \u0435\u0441\u0442\u044c \u0448\u043f\u0438\u043b\u044c. \u041f\u0435\u0440\u0435\u0434 \u0437\u0434\u0430\u043d\u0438\u0435\u043c \u0435\u0441\u0442\u044c \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u044b\u0439 \u0437\u0430\u0431\u043e\u0440."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "\u4e00\u5ea7\u88ab\u96ea\u8986\u76d6\u7684\u57ce\u5821\u5728\u5c71\u4e0a.\u8fd9\u5ea7\u57ce\u5821\u662f\u7070\u8272\u7684,\u4e0a\u9762\u6709\u4e00\u4e2a\u5c16\u5854.\u57ce\u5821\u5468\u56f4\u6709\u6811\u6728.\u5728\u57ce\u5821\u7684\u524d\u9762\u6709\u4e00\u4e2a\u6728\u95e8.\u95e8\u662f\u9ed1\u8272\u7684.\u95e8\u4e0a\u6709\u4e00\u4e2a\u6807\u5fd7\u3002"
+        }
+    ],
+    "images/pexels-pixabay-61157.jpg": [
+        {
+            "lang": "en",
+            "prefix": "The image shows",
+            "generated_text": "A group of three pelicans standing on top of a wooden pier. The pelicans have long pink beaks."
+        },
+        {
+            "lang": "de",
+            "prefix": "Das Bild zeigt",
+            "generated_text": "Es gibt drei V\u00f6gel, die auf einem Holzdock stehen. Die V\u00f6gel sind wei\u00df mit schwarzen Federn. Sie haben lange rosa Schnabel und gelbe Augen. Das Wasser um die V\u00f6gel herum ist ruhig."
+        },
+        {
+            "lang": "fr",
+            "prefix": "La photo montre",
+            "generated_text": "Il y a trois oiseaux debout sur un quai. Les oiseaux ont des plumes noires et blanches sur leurs ailes. Il y a de l'eau derri\u00e8re les oiseaux."
+        },
+        {
+            "lang": "es",
+            "prefix": "La imagen muestra",
+            "generated_text": "Tres p\u00e1jaros est\u00e1n de pie en un muelle. Los p\u00e1jaros son blancos con plumas negras y blancas en sus alas. El p\u00e1jaro de la derecha tiene un pico rosado. Los ojos de los p\u00e1jaros son amarillos. El agua es tranquila. El muelle est\u00e1 hecho de madera."
+        },
+        {
+            "lang": "ru",
+            "prefix": "\u041d\u0430 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d",
+            "generated_text": "\u041f\u0442\u0438\u0446\u044b \u0441\u0442\u043e\u044f\u0442 \u043d\u0430 \u0434\u0435\u0440\u0435\u0432\u044f\u043d\u043d\u043e\u0439 \u0434\u043e\u0441\u043a\u0435. \u041f\u0442\u0438\u0446\u044b \u0431\u0435\u043b\u044b\u0435 \u0441 \u0447\u0435\u0440\u043d\u044b\u043c\u0438 \u043f\u0435\u0440\u044c\u044f\u043c\u0438 \u0438 \u0434\u043b\u0438\u043d\u043d\u044b\u043c\u0438 \u0440\u043e\u0437\u043e\u0432\u044b\u043c\u0438 \u043a\u043b\u044e\u0432\u0430\u043c\u0438. \u041d\u0430 \u0437\u0430\u0434\u043d\u0435\u043c \u043f\u043b\u0430\u043d\u0435 \u0432\u043e\u0434\u0430."
+        },
+        {
+            "lang": "zh",
+            "prefix": "\u56fe\u4e3a",
+            "generated_text": "\u4e09\u53ea\u9e1f\u7ad9\u5728\u6728\u8d28\u7801\u5934\u4e0a. \u8fd9\u53ea\u9e1f\u662f\u767d\u8272\u7684,\u6709\u9ed1\u8272\u7684\u7fbd\u6bdb\u548c\u9ec4\u8272\u7684\u773c\u775b. \u5b83\u4eec\u6709\u957f\u957f\u7684\u7c89\u7ea2\u8272\u7684\u5634\u5df4. \u4ed6\u4eec\u7ad9\u5728\u6c34\u9762\u4e0a. \u6c34\u662f\u5e73\u9759\u7684\u548c\u84dd\u8272\u7684\u3002"
+        }
+    ]
+}
